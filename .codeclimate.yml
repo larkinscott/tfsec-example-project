@@ -1,0 +1,9 @@
+plugins:
+  tfsec:
+    enabled: true
+    exclude_paths:
+      - "terraform-aws-modules"
+      - ".terraform"
+  tflint:
+    enabled: true
+
