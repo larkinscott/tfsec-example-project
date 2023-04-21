@@ -4,6 +4,3 @@ plugins:
     exclude_paths:
       - "terraform-aws-modules"
       - ".terraform"
-  tflint:
-    enabled: true
-
